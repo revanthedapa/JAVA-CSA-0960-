@@ -1,0 +1,18 @@
+package countchar;
+import java.util.Scanner;
+public class contws 
+{
+	public static void main(String[] args)
+	{
+		String str="wow what the wakanda";
+		int count=0;
+		for (int i=0;i<str.length();i++)
+		{
+			if(str.charAt(i)=='w')
+			{
+				count++;
+			}
+		}
+		System.out.print("No of W's in the string is :"+count);
+	}
+}
