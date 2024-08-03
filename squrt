@@ -1,0 +1,20 @@
+package scanner;
+import java.util.Scanner;
+public class loop 
+{
+	public static void main(String[] args)
+	{
+		Scanner lop=new Scanner(System.in);
+		double square=0;
+		System.out.println("Enter a number (-1 to quit): ");
+		int num = lop.nextInt();
+		while (num != -1) 
+		{
+		square = Math.sqrt(square+num);
+		System.out.println("Enter a number (-1 to quit): ");
+		num = lop.nextInt();
+		}
+		System.out.println("The sum is " + square);
+	}
+}
+
